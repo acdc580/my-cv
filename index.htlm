@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @page { size: A4; margin: 0; }
+        body { font-family: 'Segoe UI', 'Helvetica Neue', sans-serif; color: #333; line-height: 1.6; margin: 0; padding: 0; }
+        .header { background-color: #2c3e50; color: #ecf0f1; padding: 40px 50px; text-align: center; }
+        .header h1 { margin: 0; font-size: 2.5em; font-weight: 300; letter-spacing: 1px; color: #ffffff; text-transform: uppercase; }
+        .contact-info { margin-top: 10px; font-size: 0.95em; color: #bdc3c7; }
+        .container { padding: 40px 50px; }
+        .section { margin-bottom: 25px; }
+        h2 { color: #16a085; font-size: 1.4em; border-bottom: 2px solid #ecf0f1; padding-bottom: 5px; margin-top: 0; text-transform: uppercase; letter-spacing: 1px; }
+        .entry { margin-bottom: 15px; }
+        .title { font-weight: bold; font-size: 1.1em; color: #2c3e50; float: left; }
+        .date { float: right; font-size: 0.9em; color: #7f8c8d; font-weight: bold; }
+        .subtitle { font-style: italic; color: #7f8c8d; margin-bottom: 5px; clear: both; padding-top: 2px; }
+        ul { margin: 5px 0; padding-left: 20px; }
+        li { margin-bottom: 4px; }
+        .skills-list { display: table; width: 100%; }
+        .skills-row { display: table-row; }
+        .skills-category { display: table-cell; font-weight: bold; padding-right: 15px; width: 25%; color: #2c3e50; padding-bottom: 5px; }
+        .skills-details { display: table-cell; padding-bottom: 5px; }
+        .clear { clear: both; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Vasileios Tsoutsoulopoulos</h1>
+        <div class="contact-info">
+            📍 Saranta Ekklision 39, 17124 N. Smyrni &nbsp;|&nbsp; 📞 +30 6980 556646 &nbsp;|&nbsp; 📧 vasilists2005@gmail.com
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2>Education</h2>
+            <div class="entry">
+                <span class="title">National and Kapodistrian University of Athens (NKUA)</span>
+                <span class="date">09/2025 – Present</span>
+                <div class="subtitle">Department of Informatics</div>
+            </div>
+            <div class="entry">
+                <span class="title">National Technical University of Athens (NTUA)</span>
+                <span class="date">09/2023 – 06/2025</span>
+                <div class="subtitle">School of Electrical and Computer Engineering</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <div class="entry">
+                <span class="title">Ciao Italia</span>
+                <span class="date">08/2026 – Present</span>
+                <div class="subtitle">Barista & Bartender</div>
+                <ul><li>Prepare specialty coffees and bar cocktails.</li></ul>
+            </div>
+            <div class="entry">
+                <span class="title">The Margi Hotel</span>
+                <span class="date">11/2025 – 03/2026</span>
+                <div class="subtitle">Waiter Assistant</div>
+                <ul><li>Customer service for high-demand corporate events and team collaboration.</li></ul>
+            </div>
+            <div class="entry">
+                <span class="title">Beat Coffee</span>
+                <span class="date">07/2023 – 10/2023</span>
+                <div class="subtitle">Barista</div>
+                <ul><li>Order management in a fast-paced environment.</li></ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Academic Projects</h2>
+            <div class="entry">
+                <span class="title">Data Structures & OOP Implementation in C++</span>
+                <div class="clear"></div>
+                <ul>
+                    <li>Development of custom data structures and implementation of operator overloading templates.</li>
+                    <li>Debugging and optimization through automated Makefiles.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-list">
+                <div class="skills-row">
+                    <div class="skills-category">Programming:</div>
+                    <div class="skills-details">C/C++, Object-Oriented Programming (OOP), Data Structures Design</div>
+                </div>
+                <div class="skills-row">
+                    <div class="skills-category">Operating Systems:</div>
+                    <div class="skills-details">Ubuntu Linux (terminal, configuration, system optimization)</div>
+                </div>
+                <div class="skills-row">
+                    <div class="skills-category">Tools:</div>
+                    <div class="skills-details">Git, MS Office</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Seminars & Workshops</h2>
+            <ul>
+                <li><strong>NTUA HPC Workshop 2026:</strong> Large Scale Scientific Computations (07/2026)</li>
+                <li><strong>Webinar: “Data & Scalable Systems” (SDI)</strong> (02/2026) - <em>Speakers: Panagiotis Apostolopoulos, Miltiadis Chrysopoulos</em></li>
+                <li><strong>Panorama of Entrepreneurship and Career Development</strong> (04/2026)</li>
+                <li><strong>Webinar: Fundamentals of Data Analysis</strong> (University of Peloponnese) (11/2024)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
